@@ -1,0 +1,11 @@
+Model Information:
+* title:	Computer motherboard - 计算机 主板 显卡
+* source:	https://sketchfab.com/3d-models/computer-motherboard-703236a81747490a9f42b19dfb809817
+* author:	MrdT (https://sketchfab.com/mrdt.club)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Computer motherboard - 计算机 主板 显卡" (https://sketchfab.com/3d-models/computer-motherboard-703236a81747490a9f42b19dfb809817) by MrdT (https://sketchfab.com/mrdt.club) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
