@@ -1,0 +1,417 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        21.556644439697266,
+        28.176525115966797,
+        40.815391540527344
+      ],
+      "min": [
+        -21.316246032714844,
+        -18.322532653808594,
+        -3.3267199993133545
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4476,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        0.9873716235160828,
+        0.9989444613456726,
+        0.9991481304168701
+      ],
+      "min": [
+        -0.9873716235160828,
+        -0.9999546408653259,
+        -0.9915816187858582
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        1.0,
+        0.9970625042915344,
+        0.9999546408653259,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9934185147285461,
+        -0.9900674223899841,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        0.9991919994354248,
+        0.9994999766349792
+      ],
+      "min": [
+        0.0005000000237487257,
+        0.0005000000237487257
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1302,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8952,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        21.556636810302734,
+        28.176523208618164,
+        40.815391540527344
+      ],
+      "min": [
+        -21.31624984741211,
+        -18.32253646850586,
+        -3.3267199993133545
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 13428,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        0.9873716235160828,
+        0.9989444613456726,
+        0.9991481304168701
+      ],
+      "min": [
+        -0.9873716235160828,
+        -0.9999546408653259,
+        -0.9915816187858582
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 5968,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        1.0,
+        0.997062623500824,
+        0.9999546408653259,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9934181571006775,
+        -0.9900676608085632,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2984,
+      "componentType": 5126,
+      "count": 373,
+      "max": [
+        0.9991919994354248,
+        0.9994999766349792
+      ],
+      "min": [
+        0.0005000000237487257,
+        0.0005000000237487257
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5208,
+      "componentType": 5125,
+      "count": 1302,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "JonParrish (https://sketchfab.com/JonParrish)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/laptop-free-download-9eb033212e384f9c94ad3d22e8b4215e",
+      "title": "Laptop | Free Download"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 10416,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5968,
+      "byteOffset": 10416,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17904,
+      "byteOffset": 16384,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11936,
+      "byteOffset": 34288,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 46224,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Laptop_baseColor.png"
+    },
+    {
+      "uri": "textures/Laptop_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Laptop_emissive.jpeg"
+    },
+    {
+      "uri": "textures/Laptop_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "Laptop",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "defaultMaterial",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "defaultMaterial",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371139006309477e-08,
+        0.999999999999999,
+        0.0,
+        0.0,
+        -0.999999999999999,
+        -4.371139006309477e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        -0.240391,
+        0.0,
+        0.897152,
+        0.0,
+        0.40531,
+        0.799251,
+        0.108602,
+        0.0,
+        -0.557027,
+        0.302757,
+        -0.149255,
+        0.0,
+        -38.160316,
+        3.222665,
+        -55.431206,
+        1.0
+      ],
+      "name": "Laptop_mesh001"
+    },
+    {
+      "mesh": 0,
+      "name": "defaultMaterial"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.0,
+        0.0,
+        -0.9288,
+        0.0,
+        -0.419608,
+        0.799251,
+        0.0,
+        0.0,
+        0.576677,
+        0.302757,
+        0.0,
+        0.0,
+        -38.732582,
+        3.222665,
+        0.055381,
+        1.0
+      ],
+      "name": "Laptop_mesh"
+    },
+    {
+      "mesh": 1,
+      "name": "defaultMaterial"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

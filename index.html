@@ -16,19 +16,19 @@
     <!--Escena, deshabilitamos modo vr, ajustamos la configuración para usar AR y la detección de imágenes monocromáticas de matriz 3x3-->
     <a-scene vr-mode-ui="enabled: false" markerhandler embedded arjs="sourceType:webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3; ">
 
-        <a-marker type="barcode" value="1">
+        <a-marker type="barcode" value="0">
             <!--Aqui pondremos los ajustes(posición,rotación,escala,nombre del modelo, animación) de nuestro modelo 3D-->
             <a-entity position="0 0 0" rotation="0 0 0" scale=".3 .3 .3" gltf-model="url(80s__90s/scene.gltf)" animation__rotate="property: rotation; dur: 10000; easing: linear; dir: normal; from: 0 0 0; to: 0 360 0; loop: true"></a-entity>
         </a-marker>
 
-       <a-marker type="barcode" value="2">
+       <a-marker type="barcode" value="1">
             <!--Aqui pondremos los ajustes(posición,rotación,escala,nombre del modelo, animación) de nuestro modelo 3D-->
-            <a-entity position="0 0 0" rotation="0 0 0" scale="8 8 8" gltf-model="url(computer/scene.gltf)" animation__rotate="property: rotation; dur: 10000; easing: linear; dir: normal; from: 0 0 0; to: 0 360 0; loop: true"></a-entity>
+            <a-entity position="0 0 0" rotation="0 0 0" scale="1 1 1" gltf-model="url(desktop_pc/scene.gltf)" animation__rotate="property: rotation; dur: 10000; easing: linear; dir: normal; from: 0 0 0; to: 0 360 0; loop: true"></a-entity>
         </a-marker>
 
-        <a-marker type="barcode" value="3">
+        <a-marker type="barcode" value="2">
             <!--Aqui pondremos los ajustes(posición,rotación,escala,nombre del modelo, animación) de nuestro modelo 3D-->
-            <a-entity position="0 0 0" rotation="0 0 0" scale="8 8 8" gltf-model="url(rog_strix/scene.gltf)" animation__rotate="property: rotation; dur: 10000; easing: linear; dir: normal; from: 0 0 0; to: 0 360 0; loop: true"></a-entity>
+            <a-entity position="0 0 0" rotation="0 0 0" scale=".03 .03 .03" gltf-model="url(laptop/scene.gltf)" animation__rotate="property: rotation; dur: 10000; easing: linear; dir: normal; from: 0 0 0; to: 0 360 0; loop: true"></a-entity>
         </a-marker>
 
         <!--Esta entidad sera la camara-->
